@@ -24,7 +24,7 @@ module OmniAuth
       option :client_secret, nil
       option :client_options, {}
       option :authorize_params, {}
-      option :authorize_options, [:scope]
+      option :authorize_options, []
       option :token_params, {}
       option :token_options, []
       option :auth_token_params, {}
